@@ -9,7 +9,8 @@ q.id AS questionid,
 q.name, q.qtype, q.defaultmark, c.id AS categoryid, 
 v.id AS versionid, v.version, v.status, v.questionbankentryid AS entryid FROM `mdl_question` q 
 JOIN `mdl_question_versions` v ON q.id = v.questionid 
-JOIN `mdl_question_bank_entries` e on e.id = v.questionbankentryid JOIN `mdl_question_categories` c ON c.id = e.questioncategoryid 
+JOIN `mdl_question_bank_entries` e on e.id = v.questionbankentryid 
+JOIN `mdl_question_categories` c ON c.id = e.questioncategoryid 
 WHERE c.id = :catid
 
 

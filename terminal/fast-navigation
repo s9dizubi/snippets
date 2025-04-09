@@ -1,9 +1,10 @@
 ### Powershell
 
- - notepad $PROFILE
- -
+- notepad $PROFILE
+- define a function:
     function laragon {
         Set-Location 'C:\laragon\www'
     }
 
 - . $PROFILE
+- type 'laragon' anywhere in the terminal

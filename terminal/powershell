@@ -1,3 +1,5 @@
+@modified: 2025-04-09 15:28:26
+
 ### Fast Navigation
 
 - notepad $PROFILE
@@ -8,3 +10,13 @@
 
 - . $PROFILE
 - type 'laragon' anywhere in the terminal
+
+### Shortcuts
+
+- notepad $PROFILE
+- define a function: 
+    function serve {
+        php artisan serve
+    }
+- . $PROFILE
+- type 'serve' in a Laravel project

@@ -1,0 +1,9 @@
+### Powershell
+
+ - notepad $PROFILE
+ -
+    function laragon {
+        Set-Location 'C:\laragon\www'
+    }
+
+- . $PROFILE

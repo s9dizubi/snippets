@@ -11,4 +11,4 @@ url()->previous();
 * previuos url without the domain. 
 * e.g. http://example.com/user : user 
 */
-str_replace(url('/'), '', url()->previous()); // 
+str_replace(url('/'), '', url()->previous());
